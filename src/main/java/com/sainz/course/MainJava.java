@@ -14,6 +14,7 @@ public class MainJava {
         ArrayList<Course> courses = new ArrayList<>();
 
             do {
+                //make sure to include this in the do loop (see below)
                 newCourse = new Course();
                 System.out.println("Enter your course number");
                 newCourse.setCourseNumber(scan.nextLine());

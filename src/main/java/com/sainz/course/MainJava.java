@@ -13,7 +13,7 @@ public class MainJava {
         ArrayList<Course> courses = new ArrayList<>();
 
 
-        for (int i = 1; i <= 3; i++)
+        for (int i = 1; i <= 5; i++)
         {
             newCourse = new Course();
             System.out.println("Enter your course number");
